@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+  /*Awal Navbar*/
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #ebfffa;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+.inti{
+    float: right;
+    display: block;
+    margin-right: 150px;
+}
+  
+.header-inti {
+    margin-top: 20px;
+    margin-right: -750px;
+    float: right;
+    display: block;
+    text-decoration: none;
+  }
+
+.header-inti a {
+    display:  inline;
+    text-decoration: none;
+  }
+
+.header-left {
+    float: left;
+  }  
+
+.header-right {
+    margin-right: 20px;
+    display: inline-block;
+    background-color: none;
+    float: right;
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: Articulat CF;
+  }
+  
+.header-right:hover {
+    background-color: #c6fce5;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+
+.header-right a {
+    margin-right: 0px;
+    line-height: 65px;
+    padding: 0 25px;
+    color:#555555;
+    display: block;
+}
+
+.header-right a:hover {   
+    text-decoration: none;
+  }
+
+.buton{
+    background-color: #c6fce5;
+    border-radius: 200px;
+    padding: 11px;
+    box-shadow: 2px 1px 2px 0;
+    text-decoration: none;
+}
+
+.buton:hover {
+    text-decoration: none;
+  }
+
+.buton:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+/* Akhir Navbar */
+
+/* Awal Slide */
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+.carousel{
+    background-color: #c6fce5;
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    position: relative;
+      
+  }
+.carousel-inner{
+    height: 680px;
+    position: relative;
+  }
+  
+.carousel-inner img{
+    opacity: 0.9 ;
+  }
+  
+.a{
+    color: white;
+    margin-bottom: 1370px;
+  }
+  
+.b{
+    margin-bottom: 300px;
+  }
+  
+.c{
+    margin-bottom: 800px;
+  }
+
+  /* Akhir Slide */
+
+  /* Awal Our Expertise */
+
+.isi {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: white;
+    text-align: center;
+  }
+  
+.heading {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    color: black;
+  }
+  
+.heading h2 {
+    font-weight: normal;
+  }
+  
+.isi-dalam2 {
+    padding: 30px;
+    padding-bottom: auto;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
+    
+  }
+
+.isi-dalam2:hover{
+    background-color: #e7f5ef;
+    width: 25%;
+    padding: 20px;
+    transform: translate(20px);
+    border-radius: 20px;
+  }
+
+.isi-dalam2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: all 0.4s ;
+    opacity: 0;
+  }
+
+.isi-dalam2:hover::before{
+    opacity: 1;
+  }
+
+.isi-dalam2 img{
+    object-fit: cover;
+  } 
+
+.isi-dalam2 .nimbul{
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ;    
+  }
+
+.isi-dalam2:hover .nimbul{
+    opacity: 1;
+    margin-bottom: 45px;
+    margin-top: 0px;
+  }
+
+.nimbul{
+    margin-bottom: 0px;
+    font-size: 13px;
+    display: inline-block;
+  }
+
+.isi-icon {
+    position: relative;
+  }
+
+.isi-icon img{
+    width: 130px;
+  }
+  
+.isi-dalam2 h2 {
+    font-size: 25px;
+    color: rgb(45, 132, 245);
+    margin-top: -30px;
+  }
+  
+/* Akhir Our Expertise */
+
+/* Awal About Us */
+
+.tentang{
+    margin-top: 100px;
+    height: 500px;
+    padding-left: 200px;
+    padding-bottom: 80px;
+    background-color: white;
+  }
+
+.tentang img{
+    width: 50%;
+    margin-left: 50px;
+  }
+
+.txt-tentang{
+    width: 50%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
+
+.txt-tentang a{
+    margin-left: 100px;    
+  }
+
+.gambar-tentang{
+    width: 50%;
+    height: 20px;
+    float: left;
+  }
+
+.gambar-tentang img{
+    height: 400px;
+  }
+
+.isi-dalam1 {
+    width: 100%;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding-top: 80px;
+    float: left;
+  }
+
+.isi-dalam3{
+    width: 25%;
+    float: left;
+  }
+
+.isi-dalam3 h1{
+    font-size: 70px;
+    color: rgb(45, 132, 245);
+  }
+
+.isi-dalam3 h2{
+    font-size: 20px;
+    padding-top: 20px; 
+  }
+
+hr{
+    width: 100%;
+    margin-top: 100px;
+    padding: 1px;
+    background-color: #c7c6c6;
+    opacity: 0.5;
+  }
+
+.garis{
+    padding-top: 200px;
+  }
+
+  /* Akhir About Us */
+
+  /* Awal Team */
+
+.tentang2{
+    background-color: #FAFAFA;
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+
+.tentang2 h1{
+    padding-top: 100px;
+    font-size: 38px;
+    text-align: center;
+  }
+
+.txt-tentang2{
+    float: left;
+    width: 25%;
+  }
+
+.txt-tentang3{
+    width: 75%;
+    float: left;
+    text-align: justify;
+    padding-top: 20px;
+  }
+
+.txt-tentang3 h2{
+    font-size: 20px;
+  }
+
+.txt-tentang3 span{
+    color: rgb(45, 132, 245);
+    font-size: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+.isii{
+    text-align: center;
+    width: 100%;
+  }
+
+.heading1 h1{
+    padding-top: 780px;
+  }
+
+.imgp{
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 300px;
+    float: left;
+    top: 50px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+  }
+
+.imgp .foto{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -60px;
+    border-radius : 300px;
+  }
+
+.saya{
+    text-align: center;
+    margin-top: 5px;
+  }
+
+.g2{
+    margin-left: 140px;
+  }
+
+  /* Akhir Team */
+  
+footer {
+    visibility: hidden;
+    margin-top: 200px;
+    padding-top: 20px;
+    background-color: #ebfffa;
+  }
