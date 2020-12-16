@@ -1,0 +1,319 @@
+/* nav */
+.navbar {
+  background-color: #F5F8FA !important;
+  color: #657786;
+  font-family: 'Concert One', cursive;
+}
+
+.bnav {
+    margin-left: 10px;
+    text-align: start;
+    font-weight: bolder !important;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.bnav:hover {
+    color: white !important;
+    border-radius: 10px;
+    background-color: #657786;
+    text-decoration: none;
+}
+
+.buton {
+    background-color: #075e54;
+    color: #e3f2fd !important;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), inset 7px 7px 20px 0 rgb(0, 0, 0, 0.2);
+}
+
+.buton:hover {
+  background-color: white !important;
+  color: #075e54 !important;
+    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 7px 7px 20px 0 rgb(0, 0, 0, 0.2) ;
+  }
+
+
+/* akhir nav */
+
+/* Awal Slide */
+.carousel-item {
+    height: 32rem;
+    background: black;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+  .bgc1{
+    background-image:url(./pict/gambar.jpg);
+  }
+  .bgc2{
+    background-image:url(./pict/b.jpg);
+  }
+  .bgc3{
+    background-image:url(./pict/gambar.jpg);
+  }
+  .isi-car{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+  }
+  /* Akhir Slide */
+
+  /* Expertise */
+   h2 {
+    font-family: 'Concert One', cursive;
+  }
+  .expertise{
+      padding-top: 20px;
+      padding-bottom: 10px;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+  }
+  .isi-expertise{
+      margin: 10px;
+      align-content: center;
+      display: inline-flex;
+      border-color: transparent;
+      transition: all 0.4s ease-in-out;
+  }
+  .isi-expertise:hover{
+      background-color: #F5F8FA;
+      color: #657786;
+      transform: translate(20px);
+      transition: all 0.5s;
+      transition-delay: all 0.5s;
+  }
+
+.isi-expertise::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: all 0.4s ;
+    opacity: 0;
+  }
+
+.isi-expertise:hover::before{
+    opacity: 1;
+  }
+
+  .nimbul{
+    margin-bottom: 0px;
+    font-size: 13px;
+    display: inline-block;
+  }
+
+.isi-dalam2 img{
+    object-fit: cover;
+  } 
+
+.isi-expertise .nimbul{
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ;    
+  }
+
+.isi-expertise:hover .nimbul{
+    opacity: 1;
+    margin-bottom: 45px;
+    margin-top: 0px;
+  }
+
+.isi-icon {
+    position: relative;
+  }
+
+.isi-icon img{
+    width: 130px;
+  }
+
+  /* Akhir Expertise */
+  
+  /* about */
+  .gprof{
+      width: 500px;
+      height: 250px;
+      background-size: cover;
+  }
+  .about{
+      align-content: center;
+      text-align: center;
+  }
+  /* akhir about */
+
+
+
+    /* Awal Footer */
+
+    .site-footer
+    {
+      background-color:#F5F8FA;
+      padding:45px 0 20px;
+      font-size:15px;
+      line-height:24px;
+      color:#14171A;
+    }
+    .site-footer hr
+    {
+      border-top-color:#bbb;
+      opacity:0.5
+    }
+    .site-footer hr.small
+    {
+      margin:20px 0
+    }
+    .site-footer h6
+    {
+      color:#657786;
+      font-size:16px;
+      text-transform:uppercase;
+      margin-top:5px;
+      letter-spacing:2px
+    }
+    .site-footer a
+    {
+      color:#737373;
+    }
+    .site-footer a:hover
+    {
+      color:#3366cc;
+      text-decoration:none;
+    }
+    .footer-links
+    {
+      padding-left:0;
+      list-style:none
+    }
+    .footer-links li
+    {
+      display:block
+    }
+    .footer-links a
+    {
+      color:#737373
+    }
+    .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+    {
+      color:#3366cc;
+      text-decoration:none;
+    }
+    .footer-links.inline li
+    {
+      display:inline-block
+    }
+    /* .site-footer .social-icons
+    {
+      text-align:right
+    } */
+    .site-footer .social-icons a
+    {
+      width:40px;
+      height:40px;
+      line-height:40px;
+      margin-left:6px;
+      border-radius:75%;
+      color:#fff;
+      background-color:#128c7e;
+    }
+    .copyright-text
+    {
+      margin:0
+    }
+    /* @media (max-width:320px)
+    {
+      .site-footer .expertise .tim .tentang [class^=col-]
+      {
+        margin-bottom:30px
+      }
+    } */
+    /* @media (max-width:767px)
+    {
+      .site-footer
+      {
+        padding-bottom:0
+      }
+      .site-footer .copyright-text,.site-footer .social-icons
+      {
+        text-align:center
+      }
+    } */
+    .social-icons
+    {
+      padding-left:0;
+      margin-bottom:0;
+      list-style:none
+    }
+    .social-icons li
+    {
+      display:inline-block;
+      margin-bottom:4px
+    }
+    .social-icons li.title
+    {
+      margin-right:15px;
+      text-transform:uppercase;
+      color:#fff;
+      font-weight:700;
+      font-size:13px
+    }
+    .social-icons a{
+      background-color:#eceeef;
+      color:#fff;
+      font-size:16px;
+      display:inline-block;
+      line-height:44px;
+      width:44px;
+      height:44px;
+      text-align:center;
+      margin-right:8px;
+      border-radius:100%;
+      -webkit-transition:all .2s linear;
+      -o-transition:all .2s linear;
+      transition:all .2s linear
+    }
+    .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+    {
+      color:#fff;
+      background-color:#29aafe
+    }
+    .social-icons.size-sm a
+    {
+      line-height:34px;
+      height:34px;
+      width:34px;
+      font-size:14px
+    }
+    .social-icons a.whatsapp:hover
+    {
+      background-color:#25d366
+    }
+    .social-icons a.facebook:hover
+    {
+      background-color:#3b5998
+    }
+    .social-icons a.twitter:hover
+    {
+      background-color:#00aced
+    }
+    /* @media (max-width:767px)
+    {
+      .social-icons li.title
+      {
+        display:block;
+        margin-right:0;
+        font-weight:600
+      }
+    } */
+    /* Akhir Footer */
+  
